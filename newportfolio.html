@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>          
+<html>
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css"/> 
+        <link rel="stylesheet" href="finalcss.css" />
+       
+	</head>  
+	<body>
+		<!--<div id="page-wrapper"> -->
+
+			<!-- Header -->
+            <!-- Header/navbar -->
+            <div id="page-wrapper"> 
+            <!-- the page-wrapper isn't showing up? -->
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="#">Mustafa's Projects</a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right" "hidden-sm hidden-md">
+                            <li><a class="navbar-dilly" href="http://www.mustafasprojects.com/mywork">My Work</a></li>
+                        </ul>
+                    </div>
+  <!-- /.container-fluid -->
+                </nav>	
+<!-- Main -->
+            <div id="main" class="container">
+                <header>
+                    <h2>My Work</h2>
+                </header>
+                <div class="box">
+                    <div class="box-image">
+                        <img src="laptopstock.jpg" alt="" />
+                    </div>
+                        <h3>
+                            <a href="sampleofficial.html">Arris SURFboard SBG6700-AC Wireless Gateway Manual</a>
+                        </h3>
+                            <p>The Arris SURFboard SBG6700-AC wireless gateway is the premier modem on the market today. It's top of the line security, simple user interface and blazing fast speeds make it the number one consumer choice for modems. With this guide you can set up your home wireless network in 30 minutes.</p>
+                        <br>
+                        <p>
+                            <a href="sampleofficial.html" class="button-alt">Learn More</a>
+                        </p>
+                </div>
+            </div>
+                            <!-- so why span class? because i'm trying to inline this? check the bookmarked stackoverflow page if you have any questions. it's div now. let's see what that does. -->
+		<!-- </div> -->
+        <!-- Contact -->
+       
+    <div class="row"> 
+    <div class="container">  
+        <div class="row">
+        <div class="col-center col-lg-6 col-lg-offset-3"> <!-- so the reason this centers it is because of the offset. example: a column size of 2 would be offset by 5. (12-2)/2 = 5. so (12-6)/2=3 -->
+            <div class="content-column-content">
+                <center><h2>Get In Touch</h2></center>
+   	                <form id="contact-form" method="post" action="contact.php" class="contact-form form" align="">
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                              <input type="text" name="name" id="name" required="required" class="form-control" placeholder="Name" required="required" data-error="Name is required">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="text" name="email" id="email" required="required" class="form-control" placeholder="Your Email" required="required" data-error="Valid email is required">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <textarea rows="4" name="message" id="message" required="required" class="form-control" placeholder="What do you think?" required="required" data-error="You forgot to leave a message"></textarea>
+                            <div class="help-block with-errors"></div>
+                      </div>
+                      <div>
+                          <center><input type="submit" value="Send" class="button"></center>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    
+        <div class="container">
+            
+            <center>
+                <ul class="icons">
+                    <li>
+                        <a href="https://twitter.com/amnmustafa15" class="icon style2 fa fa-twitter"><span class="label"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/amustafa15" class="icon style2 fa fa-github"><span class="label"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ameen-mustafa-29349188/" class="icon style2 fa fa-linkedin"><span class="label"></span></a>
+                    </li>
+                </ul>
+            </center>
+    </div>
+        </div>
+    
+		<!-- Scripts -->
+    
+            <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+            <script type="text/javascript" src="website.js"></script>
+	</body>
+</html>
