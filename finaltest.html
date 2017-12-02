@@ -1,0 +1,147 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="finalcss.css"/>
+    
+    <!-- bootstrap first, mine second -->
+    <!-- this is supposed to do the navbar scroll color stuff -->
+</head>
+<body>
+<!-- adding the cdn/ajax fonts/cdn script got rid of the image margin and makes navbar go over header. this is what we want right does this make the bootstrap grid irrelevant? -->
+    
+<!-- Header/navbar -->
+    
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Mustafa's Projects</a>
+    </div>
+      <ul class="nav navbar-nav navbar-right" "hidden-sm hidden-md">
+        <li><a class="navbar-dilly" href="http://www.mustafasprojects.com/mywork">My Work</a></li>
+      </ul>
+    </div>
+  <!-- /.container-fluid -->
+</nav>
+    
+<!-- do i need the #intro? make the fonts bigger. maybe the entire header. -->	
+    
+<!-- Banner -->
+    
+    <a name="intro"></a>
+    <div class="banner style orient-left content-align-middle image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+<!--  <div class="container">?? -->
+        <div class="content">
+            <h1>Welcome</h1>
+                <p class="major">A small collection of my work all in one convenient place.</p>
+  		</div>
+        <div class="image">
+            <img src="maroonbells.jpg" alt="" />
+        </div>
+    </div>			
+    
+    <!-- Spotlight -->
+    
+    <div class="container">   
+        <a name="about" id="about"></a>
+            <section class="spotlight style orient-right content-align-center image-position-center onload-image-fade-right onload-content-fade-left">
+				<div class="content">
+				    <h2>About</h2>
+				        <p>Ameen Mustafa is a proud graduate of Virginia Tech. He can often be found hiding from the world in the Rocky Mountains or in Cheesman Park. He is seeking gainful employment, life experience and the perfect grilled cheese.
+				        Ameen Mustafa is most easily reached by messaging him on <strong><a href="https://www.linkedin.com/in/ameen-mustafa-29349188/" target="_blank">LinkedIn.</a></strong></p>
+                        <ul class="actions vertical">
+				            <p><a href="https://www.linkedin.com/in/ameen-mustafa-29349188/" target="_blank" class="button">Message Me</a></p>
+				        </ul>
+				</div>
+                <div class="image">
+				    <img src="img_02034.jpg" alt="" />
+				</div>
+            </section>
+        </div> 
+    
+    <!-- Spotlight -->
+    
+    <div class="container">
+        <a name="portfolio"></a>
+            <section class="spotlight style orient-left content-align-center image-position-right onload-image-fade-left onload-content-fade-right">
+                <a name="portfolio"></a>
+				    <div class="content">
+				        <h2>Portfolio</h2>
+                            <p>This is a small sample of my work. It was constructed with a variety of publishing softwares. Its incorporation into the site required extensive use of HTML, HTML5, CSS, and CSS3. </p>
+                            <p><a href="http://www.mustafasprojects.com/mywork" class="button">View My Work</a></p>
+						</div>
+						<div class="image">          
+							<img src="codingstockphoto.jpeg" alt="" />
+						</div>
+            </section>	
+    </div>
+    
+    <!-- Contact -->
+       
+    <div class="row"> 
+    <div class="container">  
+        <div class="row">
+        <div class="col-center col-lg-6 col-lg-offset-3"> <!-- so the reason this centers it is because of the offset. example: a column size of 2 would be offset by 5. (12-2)/2 = 5. so (12-6)/2=3 -->
+            <div class="content-column-content">
+                <center><h2>Get In Touch</h2></center>
+   	                <form id="contact-form" method="post" action="contact.php" class="contact-form form" align="">
+                    <div class="controls">
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                              <input type="text" name="name" id="name" required="required" class="form-control" placeholder="Name" required="required" data-error="Name is required">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                        <div class="col-sm-6">
+                          <div class="form-group">
+                            <input type="text" name="email" id="email" required="required" class="form-control" placeholder="Your Email" required="required" data-error="Valid email is required">
+                              <div class="help-block with-errors"></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <textarea rows="4" name="message" id="message" required="required" class="form-control" placeholder="What do you think?" required="required" data-error="You forgot to leave a message"></textarea>
+                            <div class="help-block with-errors"></div>
+                      </div>
+                      <div>
+                          <center><input type="submit" value="Send" class="button"></center>
+                      </div>
+                    </div>
+                  </form>
+            </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    
+        <div class="container">
+            
+            <center>
+                <ul class="icons">
+                    <li>
+                        <a href="https://twitter.com/amnmustafa15" class="icon style2 fa fa-twitter"><span class="label"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/amustafa15" class="icon style2 fa fa-github"><span class="label"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ameen-mustafa-29349188/" class="icon style2 fa fa-linkedin"><span class="label"></span></a>
+                    </li>
+                </ul>
+            </center>
+            
+        </div>
+        
+    
+        
+<!-- do i need the a name="intro"? -->    
+    <script type="text/javascript" src="js-strap/bootstrap.js"></script>
+    <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="website.js"></script>
+</body>
+    
